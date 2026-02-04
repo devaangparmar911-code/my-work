@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Accessory Hub - Premium Accessories</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Men's Accessory Hub</h1>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <span>🛒</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Discover Premium Men’s Accessories</h2>
+                <p>Elevate your style with watches, belts, wallets, and more.</p>
+                <a href="#shop" class="cta-button">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="shop" class="featured-products">
+            <div class="container">
+                <h2>Featured Accessories</h2>
+                <div class="products-grid">
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=400&q=80"
+                            alt="Luxury Watch">
+                        <h3>Luxury Stainless Steel Watch</h3>
+                        <p>$149.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1620799139652-715b1a5b8f76?auto=format&fit=crop&w=400&q=80"
+                            alt="Leather Belt">
+                        <h3>Premium Leather Belt</h3>
+                        <p>$39.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=400&q=80"
+                            alt="Leather Wallet">
+                        <h3>Slim Leather Wallet</h3>
+                        <p>$29.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=400&q=80"
+                            alt="Sunglasses">
+                        <h3>Polarized Sunglasses</h3>
+                        <p>$59.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=400&q=80"
+                            alt="Men Bracelet">
+                        <h3>Men’s Leather Bracelet</h3>
+                        <p>$24.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?auto=format&fit=crop&w=400&q=80"
+                            alt="Men Ring">
+                        <h3>Minimal Silver Ring</h3>
+                        <p>$19.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1600180759025-29c1c8b65e34?auto=format&fit=crop&w=400&q=80"
+                            alt="Men Cap">
+                        <h3>Classic Black Cap</h3>
+                        <p>$17.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1618354691211-0a10d9be0b41?auto=format&fit=crop&w=400&q=80"
+                            alt="Men Chain">
+                        <h3>Stainless Steel Chain</h3>
+                        <p>$34.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Shop by Category</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=150&q=80"
+                            alt="Watches">
+                        <h3>Watches</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&fit=crop"
+                            alt="Belts">
+                        <h3>Belts</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=150&q=80"
+                            alt="Wallets">
+                        <h3>Wallets</h3>
+                    </div>
+                    <div class="category-card">
+                        <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=150&q=80"
+                            alt="Sunglasses">
+                        <h3>Sunglasses</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="promo">
+            <div class="container">
+                <h2>Flat 50% Off on All Accessories</h2>
+                <p>Limited time offer on watches, belts, wallets, and more. Use code: ACCESSORY50</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2023 Men's Accessory Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+  this is html code kuch image idhar udhar hongi  to kar lio
