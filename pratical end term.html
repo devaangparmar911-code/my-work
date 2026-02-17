@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Restaurant</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f4f4f4;
+    }
+
+    .navbar{
+      background:#ff4d4d;
+      color:white;
+      padding:15px;
+      text-align:center;
+    }
+
+    .navbar a{
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .banner{
+      background:#ffb3b3;
+      color:white;
+      text-align:center;
+      padding:80px 20px;
+    }
+
+    .menu{
+      padding:30px;
+      background:white;
+      margin:20px;
+      border-radius:10px;
+    }
+
+    ul{
+      list-style-type: square;
+      font-size:18px;
+    }
+
+    ul ul{
+      list-style-type: circle;
+      margin-left:30px;
+      color:#555;
+    }
+
+    /* Images */
+    .images{
+      text-align:center;
+      margin:20px;
+    }
+
+    .images img{
+      width:200px;
+      height:150px;
+      margin:10px;
+      border-radius:10px;
+      box-shadow:0 0 5px gray;
+    }
+
+    /* Reservation */
+    .reservation{
+      background:white;
+      margin:20px;
+      padding:20px;
+      border-radius:10px;
+    }
+
+    .reservation input, .reservation button{
+      padding:10px;
+      margin:5px;
+      width:200px;
+    }
+
+    .footer{
+      background:#333;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h2>🍴 My Restaurant</h2>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#reserve">Reservation</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h1>Welcome to My Restaurant</h1>
+    <p>Delicious Food for You</p>
+  </div>
+
+  <!-- Images Section -->
+  <div class="images">
+    <h2>Our Food</h2>
+    <img src="https://images.unsplash.com/photo-1601924571970-68d8fdd6b08c" alt="Pizza">
+    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+    <img src="https://images.unsplash.com/photo-1605475128023-26f5fa6f06e8" alt="Biryani">
+    <img src="https://images.unsplash.com/photo-1628294896516-344152572b92" alt="Pasta">
+  </div>
+
+  <!-- Menu Section -->
+  <div class="menu" id="menu">
+    <h2>Our Menu</h2>
+
+    <ul>
+      <li>Veg Items
+        <ul>
+          <li>Paneer Butter Masala – ₹180</li>
+          <li>Veg Biryani – ₹150</li>
+          <li>Mix Veg – ₹130</li>
+        </ul>
+      </li>
+
+      <li>Non-Veg Items
+        <ul>
+          <li>Chicken Curry – ₹220</li>
+          <li>Chicken Biryani – ₹200</li>
+          <li>Egg Curry – ₹120</li>
+        </ul>
+      </li>
+
+      <li>Fast Food
+        <ul>
+          <li>Pizza – ₹199</li>
+          <li>Burger – ₹99</li>
+          <li>Sandwich – ₹149</li>
+        </ul>
+      </li>
+
+      <li>Drinks
+        <ul>
+          <li>Cold Coffee – ₹80</li>
+          <li>Lemon Juice – ₹50</li>
+          <li>Soft Drink – ₹40</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Reservation Section -->
+  <div class="reservation" id="reserve">
+    <h2>Table Reservation</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="date" required><br>
+      <input type="time" required><br>
+      <input type="number" placeholder="No. of Persons" required><br>
+      <button type="submit">Reserve Table</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>© 2026 My Restaurant</p>
+  </div>
+
+</body>
+</html>
